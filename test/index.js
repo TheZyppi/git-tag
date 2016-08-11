@@ -2,6 +2,7 @@ var assert = require('assert')
 var gitTag = require('../')({localOnly:true,dir:'../.git'})
 var async = require('async')
 
+
 console.log('test start...')
 var tagname = '2015.2015.2015'
 var invalidTag = '201520152015'
